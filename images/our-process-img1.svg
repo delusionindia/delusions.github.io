@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="257px" height="65px" viewBox="0 0 257 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="95.7655684%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#59C82A" offset="0%"></stop>
+            <stop stop-color="#50BF21" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="0 1.77635684e-14 219.54067 1.77635684e-14 232.091708 19.7401242 219.54067 39.4802485 0 39.4802485"></polygon>
+        <filter x="-15.5%" y="-50.7%" width="120.7%" height="201.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="-16" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(24.000000, 8.651448)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <path stroke="#1C1C1C" stroke-width="2.60000014" d="M218.826709,1.30000007 L230.551189,19.7401242 L218.826709,38.1802484 L1.30000007,38.1802484 L1.30000007,1.30000007 L218.826709,1.30000007 Z" stroke-linejoin="square" fill="url(#linearGradient-1)" fill-rule="evenodd"></path>
+            </g>
+            <line x1="16.6038866" y1="29.5469643" x2="16.6038866" y2="54.1501389" id="Line-3-Copy" stroke="#000000" stroke-width="2" stroke-linecap="square"></line>
+        </g>
+    </g>
+</svg>
